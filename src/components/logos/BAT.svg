@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="201px" height="201px" viewBox="0 0 201 201" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>BAT</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0" offset="97.8336256%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-762.000000, -5004.000000)">
+            <g id="BAT" transform="translate(762.000000, 5004.000000)">
+                <path d="M200.3679,100.3182 C200.3679,155.5472 155.5969,200.3182 100.3679,200.3182 C45.1399,200.3182 0.3679,155.5472 0.3679,100.3182 C0.3679,45.0892 45.1399,0.3182 100.3679,0.3182 C155.5969,0.3182 200.3679,45.0892 200.3679,100.3182" id="Fill-256" fill="#672893"></path>
+                <path d="M190.9534,100.3231 C190.9534,120.5431 184.3234,139.2231 173.1134,154.3031 C156.6134,176.5131 130.1634,190.9031 100.3634,190.9031 C94.5834,190.9031 88.9334,190.3631 83.4534,189.3231 C41.5034,181.4031 9.7834,144.5631 9.7834,100.3231 C9.7834,50.2931 50.3334,9.7331 100.3634,9.7331 C150.3934,9.7331 190.9534,50.2931 190.9534,100.3231" id="Fill-258" fill="#FFFFFF"></path>
+                <polygon id="Fill-260" fill="#FF4F00" points="100.5691 79.8153 75.7171 122.2993 76.3481 122.2993 38.8951 143.5103 38.4961 143.5103 100.5691 37.3913"></polygon>
+                <polygon id="Fill-262" fill="#672893" points="162.6389 143.5106 38.8949 143.5106 76.3489 122.2996 125.2299 122.2996 162.6169 143.4746"></polygon>
+                <polygon id="Fill-264" fill="#A01A63" points="125.2303 122.2996 125.4173 122.2996 100.5693 79.8156 100.5693 37.3916 162.6173 143.4746"></polygon>
+                <polygon id="Fill-266" fill="#FFFFFF" points="100.5691 79.8153 75.7181 122.2993 125.4201 122.2993"></polygon>
+                <path d="M38.893,143.514 L83.453,189.323 C88.934,190.363 94.584,190.903 100.363,190.903 L100.363,190.903 C130.164,190.903 156.613,176.513 173.113,154.304 L173.113,154.304 L162.613,143.514 L38.893,143.514 Z" id="Fill-269" fill="url(#linearGradient-1)" opacity="0.100000001"></path>
+            </g>
+        </g>
+    </g>
+</svg>

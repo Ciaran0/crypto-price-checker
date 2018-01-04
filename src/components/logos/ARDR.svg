@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="201px" height="201px" viewBox="0 0 201 201" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>ARDR</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-414.000000, -3123.000000)">
+            <g id="ARDR" transform="translate(414.000000, 3123.000000)">
+                <path d="M100.9568,0.0364 C45.7278,0.0364 0.9568,44.8074 0.9568,100.0364 C0.9568,155.2654 45.7278,200.0364 100.9568,200.0364 C156.1848,200.0364 200.9568,155.2654 200.9568,100.0364 C200.9568,44.8074 156.1848,0.0364 100.9568,0.0364" id="Fill-23" fill="#3886CA"></path>
+                <path d="M100.9568,6.0452 C152.7838,6.0452 194.9478,48.2092 194.9478,100.0362 C194.9478,151.8632 152.7838,194.0272 100.9568,194.0272 C49.1298,194.0272 6.9658,151.8632 6.9658,100.0362 C6.9658,48.2092 49.1298,6.0452 100.9568,6.0452" id="Fill-25" fill="#FFFFFF"></path>
+                <polygon id="Fill-27" fill="#0B61A2" points="99.9461 26.7088 32.1521 145.2558 66.0491 145.2558 117.2291 57.0148"></polygon>
+                <polygon id="Fill-29" fill="#3886CA" points="129.4002 77.9495 169.0782 145.2565 137.5552 145.2565 96.9032 95.7195"></polygon>
+                <polygon id="Fill-31" fill="#08416E" points="96.2947 97.6668 113.3347 119.0878 68.6657 145.2558"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

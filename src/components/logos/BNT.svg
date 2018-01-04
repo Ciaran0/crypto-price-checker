@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="201px" height="201px" viewBox="0 0 201 201" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>BNT</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1451.000000, -6920.000000)">
+            <g id="BNT" transform="translate(1451.000000, 6920.000000)">
+                <path d="M200.6125,100.1033 C200.6125,155.3323 155.8415,200.1033 100.6125,200.1033 C45.3835,200.1033 0.6125,155.3323 0.6125,100.1033 C0.6125,44.8743 45.3835,0.1033 100.6125,0.1033 C155.8415,0.1033 200.6125,44.8743 200.6125,100.1033" id="Fill-475" fill="#0B0E2C"></path>
+                <polygon id="Fill-476" fill="#FFFFFF" points="96.7849 37.5506 67.3489 54.8826 96.7849 72.4416 127.2539 54.9956"></polygon>
+                <polygon id="Fill-477" fill="#FFFFFF" points="58.7488 66.244 58.7488 101.36 89.2108 118.402 89.2108 83.286"></polygon>
+                <polygon id="Fill-478" fill="#FFFFFF" points="132.4114 66.244 132.4114 101.36 101.9494 118.402 101.9494 83.286"></polygon>
+                <polygon id="Fill-479" fill="#FFFFFF" points="142.4021 108.2459 142.4021 143.3629 101.9491 166.6559 101.9491 131.5389"></polygon>
+                <polygon id="Fill-480" fill="#FFFFFF" points="58.7488 114.4969 58.7488 149.6139 89.2108 166.6559 89.2108 131.5389"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

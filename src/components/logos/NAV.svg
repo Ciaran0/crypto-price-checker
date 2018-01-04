@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="201px" height="201px" viewBox="0 0 201 201" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>NAV</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1098.000000, -8085.000000)">
+            <g id="NAV" transform="translate(1098.000000, 8085.000000)">
+                <path d="M200.762,100.2694 C200.762,155.4984 155.991,200.2694 100.762,200.2694 C45.533,200.2694 0.762,155.4984 0.762,100.2694 C0.762,45.0404 45.533,0.2694 100.762,0.2694 C155.991,0.2694 200.762,45.0404 200.762,100.2694" id="Fill-927" fill="#B6ECFF"></path>
+                <polygon id="Fill-929" fill="#A03EC3" points="79.4983 92.5536 60.5373 137.1536 29.8823 137.1536 31.1893 134.0786 74.4453 83.4136"></polygon>
+                <polygon id="Fill-931" fill="#A03EC3" points="62.1692 61.2108 62.5042 61.8158 62.0942 61.3878"></polygon>
+                <polygon id="Fill-933" fill="#3B9FE6" points="140.9324 61.3221 137.8274 98.9751 122.8824 115.5751 118.4824 107.6171"></polygon>
+                <polygon id="Fill-935" fill="#20ADEC" points="171.4275 61.6512 134.8135 137.1532 134.6965 136.9412 137.8265 98.9752"></polygon>
+                <polygon id="Fill-937" fill="#A03EC3" points="134.696 136.9412 134.813 137.1532 134.678 137.1532"></polygon>
+                <polygon id="Fill-939" fill="#3AB6ED" points="171.6414 61.2108 171.4274 61.6508 137.8274 98.9758 140.9324 61.3218 140.9334 61.3188 140.9864 61.2108"></polygon>
+                <polygon id="Fill-941" fill="#7C58B8" points="92.824 61.2108 92.251 62.5588 78.56 78.5938 62.504 61.8158 62.169 61.2108"></polygon>
+                <polygon id="Fill-943" fill="#A03EC3" points="93.0505 61.6219 92.2505 62.5589 92.8235 61.2109"></polygon>
+                <polygon id="Fill-945" fill="#5E88DE" points="118.4822 107.617 114.3962 116.043 98.4952 99.427 93.1252 61.755"></polygon>
+                <polygon id="Fill-947" fill="#7876D7" points="103.7732 136.4569 79.4982 92.5539 83.3182 83.5679 98.4952 99.4269"></polygon>
+                <polygon id="Fill-949" fill="#0447C1" points="134.5979 137.1532 104.1589 137.1532 104.9759 135.4672 104.9759 135.4662 118.5519 120.3862"></polygon>
+                <polygon id="Fill-951" fill="#A03EC3" points="103.8918 136.6717 104.9758 135.4677 104.1588 137.1527"></polygon>
+                <polygon id="Fill-953" fill="#3C67CA" points="122.8821 115.575 118.5521 120.387 114.3961 116.043 118.4821 107.617"></polygon>
+                <polygon id="Fill-955" fill="#A03EC3" points="134.8132 137.1532 134.6782 137.1532 134.6962 136.9412"></polygon>
+                <polygon id="Fill-957" fill="#B64AC6" points="74.4451 83.4139 31.1901 134.0789 62.0941 61.3879 62.5041 61.8159"></polygon>
+                <polygon id="Fill-959" fill="#572FAA" points="83.3186 83.5682 79.4986 92.5532 74.4446 83.4142 78.5606 78.5932"></polygon>
+                <polygon id="Fill-961" fill="#7241AE" points="78.5603 78.5936 74.4453 83.4136 62.5043 61.8166"></polygon>
+                <polygon id="Fill-963" fill="#6249B6" points="92.2507 62.5584 83.3187 83.5684 78.5607 78.5934"></polygon>
+                <polygon id="Fill-965" fill="#8E7FDA" points="98.4949 99.4266 83.3189 83.5686 92.2509 62.5586 93.0509 61.6216 93.1239 61.7526 93.1249 61.7546"></polygon>
+                <polygon id="Fill-967" fill="#2890E2" points="137.8269 98.9754 134.6959 136.9414 122.8819 115.5754"></polygon>
+                <polygon id="Fill-969" fill="#5375D8" points="114.3958 116.0428 104.9768 135.4668 104.9768 135.4678 103.8918 136.6718 103.7728 136.4568 98.4948 99.4268"></polygon>
+                <polygon id="Fill-971" fill="#2B4FC0" points="118.552 120.3866 104.976 135.4666 114.396 116.0426"></polygon>
+                <polygon id="Fill-973" fill="#205DC9" points="134.696 136.9412 134.678 137.1532 134.598 137.1532 118.552 120.3862 122.882 115.5752"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

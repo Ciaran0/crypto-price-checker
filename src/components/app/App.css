@@ -1,0 +1,41 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9em;
+}
+
+a svg {
+  width: 30px;
+  height: 30px;
+}
+
+a svg:hover {
+  fill: orange;
+}
+
+.active svg {
+  fill: orange;
+}
+nav ul {
+  text-align: center;
+  display: flex;
+  align-items: stretch; /* Default */
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  padding: 0;
+  padding-top: 10px;
+}
+
+nav li {
+  display: inline-block;
+  flex: 0 1 auto; /* Default */
+  list-style-type: none;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  width: 35%
+}

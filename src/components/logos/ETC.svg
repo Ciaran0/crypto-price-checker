@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="201px" height="201px" viewBox="0 0 201 201" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>ETC</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-422.000000, -1974.000000)">
+            <g id="ETC" transform="translate(422.000000, 1974.000000)">
+                <polygon id="Fill-612" fill="#FFFFFF" points="55.8689 116.5936 98.7609 138.0706 98.7609 172.6036"></polygon>
+                <polygon id="Fill-613" fill="#FFFFFF" points="144.4246 116.5936 101.3806 172.6036 101.3806 138.0706"></polygon>
+                <path d="M100.2844,0.2352 C45.0554,0.2352 0.2844,45.0062 0.2844,100.2352 C0.2844,155.4642 45.0554,200.2352 100.2844,200.2352 C155.5124,200.2352 200.2844,155.4642 200.2844,100.2352 C200.2844,45.0062 155.5124,0.2352 100.2844,0.2352" id="Fill-614" fill="#659172"></path>
+                <path d="M100.2844,192.3836 C49.3924,192.3836 8.1364,151.1276 8.1364,100.2356 C8.1364,49.3426 49.3924,8.0876 100.2844,8.0876 C151.1764,8.0876 192.4324,49.3426 192.4324,100.2356 C192.4324,151.1276 151.1764,192.3836 100.2844,192.3836" id="Fill-615" fill="#FFFFFF"></path>
+                <polygon id="Fill-616" fill="#659172" points="147.3259 90.7108 100.0089 15.8518 51.3259 90.7108 100.0089 70.5308"></polygon>
+                <polygon id="Fill-617" fill="#659172" points="53.2424 111.3294 100.5594 184.6194 149.2424 111.3294 100.5594 140.4684"></polygon>
+                <polygon id="Fill-618" fill="#659172" points="149.2424 101.7069 100.0084 81.1949 51.3254 101.7069 100.0084 130.8639"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

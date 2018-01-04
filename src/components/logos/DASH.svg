@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="201px" height="201px" viewBox="0 0 201 201" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>DASH</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-422.000000, -1613.000000)">
+            <g id="DASH" transform="translate(422.000000, 1613.000000)">
+                <path d="M200.1463,100.2322 C200.1463,155.4612 155.3753,200.2322 100.1463,200.2322 C44.9173,200.2322 0.1463,155.4612 0.1463,100.2322 C0.1463,45.0032 44.9173,0.2322 100.1463,0.2322 C155.3753,0.2322 200.1463,45.0032 200.1463,100.2322" id="Fill-501" fill="#0986D3"></path>
+                <path d="M165.7048,86.5599 L151.4958,127.7049 C148.5168,136.3469 140.3738,142.1569 131.2328,142.1569 L44.2258,142.1569 L50.9258,120.5869 L131.1388,120.5869 L145.2678,79.6849 L63.6248,79.6849 L70.3248,58.1149 L145.4428,58.1149 C152.3588,58.1149 158.8838,61.4849 162.9008,67.1199 C166.9178,72.7549 167.9698,80.0209 165.7048,86.5599" id="Fill-502" fill="#FFFFFF"></path>
+                <polygon id="Fill-503" fill="#FFFFFF" points="97.8943 89.3504 97.8943 90.7124 91.6253 110.9204 33.4133 110.9204 40.1133 89.3504"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

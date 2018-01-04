@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="175px" viewBox="0 0 200 175" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>BLOCK</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-415.000000, -6933.000000)">
+            <g id="BLOCK" transform="translate(414.000000, 6933.000000)">
+                <polygon id="Fill-448" fill="#8F8886" points="39.0774 87.533 62.9474 128.893 43.9574 162.012 0.9574 87.533 44.4574 12.193 63.4474 45.313"></polygon>
+                <path d="M132.1472,140.6932 L131.8972,141.1322 L103.6472,141.1322 L111.0272,128.2732 L118.0272,116.0632 L134.8972,86.6532 L118.0372,57.2622 L111.0372,45.0522 L104.6672,33.9432 L131.8972,33.9432 L148.5672,62.8132 L162.8372,87.5332 L149.0772,111.3732 L132.1472,140.6932 Z M167.5672,29.6932 L150.9572,0.9332 L51.9972,0.9332 L70.9272,33.9432 L94.1672,74.4632 L101.1672,86.6722 L94.1672,98.8732 L69.9772,141.0632 L50.9972,174.1432 L150.9572,174.1432 L151.1472,173.8132 L168.0672,144.5032 L200.9572,87.5332 L167.5672,29.6932 Z" id="Fill-449" fill="#101142"></path>
+            </g>
+        </g>
+    </g>
+</svg>

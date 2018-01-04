@@ -1,0 +1,18 @@
+html, body {
+  height:100%;
+  margin: 0;
+}
+
+table {
+  height: 100%;
+  width: 100%;
+}
+
+.text--red {
+  color: red;
+}
+
+.text--green {
+  color: green;
+}
+

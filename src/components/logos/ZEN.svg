@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="201px" height="201px" viewBox="0 0 201 201" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>ZEN</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1098.000000, -7695.000000)">
+            <g id="ZEN" transform="translate(1098.000000, 7695.000000)">
+                <path d="M200.762,100.703 C200.762,155.932 155.991,200.703 100.762,200.703 C45.533,200.703 0.762,155.932 0.762,100.703 C0.762,45.474 45.533,0.703 100.762,0.703 C155.991,0.703 200.762,45.474 200.762,100.703" id="Fill-877" fill="#FCEDDB"></path>
+                <polygon id="Fill-879" fill="#FA8900" points="102.9163 101.1678 127.2253 115.2018 127.2253 58.1348 102.9163 44.0998"></polygon>
+                <polygon id="Fill-881" fill="#0D1006" points="151.5344 72.1688 127.2254 86.2038 127.2254 58.1348 151.5344 44.0998"></polygon>
+                <polygon id="Fill-883" fill="#0D1006" points="78.6072 115.077 54.2982 129.111 54.2982 101.042 78.6072 87.007"></polygon>
+                <polygon id="Fill-885" fill="#0D1006" points="102.9163 101.1678 78.6073 115.2018 78.6073 87.1328 102.9163 73.0988"></polygon>
+                <polygon id="Fill-887" fill="#CDB18C" points="127.2253 58.1346 102.9163 44.0996 127.2253 30.0656 151.5343 44.0996"></polygon>
+                <polygon id="Fill-889" fill="#FA8900" points="29.9895 115.202 54.2985 129.237 54.2985 101.168 29.9895 87.133"></polygon>
+                <polygon id="Fill-891" fill="#CDB18C" points="54.2986 101.1678 29.9896 87.1328 54.2986 73.0988 78.6076 87.1328"></polygon>
+                <polygon id="Fill-893" fill="#0D1006" points="151.5344 157.1805 127.2254 171.2155 127.2254 143.1465 151.5344 129.1115"></polygon>
+                <polygon id="Fill-895" fill="#FA8900" points="102.9163 157.3065 127.2253 171.3415 127.2253 143.2725 102.9163 129.2375"></polygon>
+                <polygon id="Fill-897" fill="#CDB18C" points="127.2253 143.2723 78.6073 115.2023 102.9163 101.1683 151.5343 129.2373"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

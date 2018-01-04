@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="201px" height="201px" viewBox="0 0 201 201" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>EMC2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-414.000000, -5381.000000)">
+            <g id="EMC2" transform="translate(414.000000, 5381.000000)">
+                <path d="M200.9573,100.911 C200.9573,156.14 156.1863,200.911 100.9573,200.911 C45.7283,200.911 0.9573,156.14 0.9573,100.911 C0.9573,45.682 45.7283,0.911 100.9573,0.911 C156.1863,0.911 200.9573,45.682 200.9573,100.911" id="Fill-318" fill="#00CDFF"></path>
+                <path d="M194.531,100.911 C194.531,152.59 152.636,194.484 100.957,194.484 C49.278,194.484 7.384,152.59 7.384,100.911 C7.384,49.231 49.278,7.337 100.957,7.337 C152.636,7.337 194.531,49.231 194.531,100.911" id="Fill-320" fill="#FFFFFF"></path>
+                <polygon id="Fill-322" fill="#0074AE" points="98.1477 79.5887 66.5717 79.5887 80.2187 54.1677 111.7947 54.1677"></polygon>
+                <polyline id="Fill-324" fill="#00A1D2" points="107.513 54.1678 139.088 54.1678 125.442 79.5888 93.866 79.5888"></polyline>
+                <polyline id="Fill-326" fill="#00CDFF" points="137.2151 54.1678 168.7911 54.1678 155.1441 79.5888 123.5681 79.5888"></polyline>
+                <polygon id="Fill-328" fill="#0074AE" points="81.2893 114.4735 49.7143 114.4735 63.3613 89.0525 94.9363 89.0525"></polygon>
+                <polyline id="Fill-330" fill="#00A1D2" points="90.655 89.0526 122.23 89.0526 108.583 114.4736 77.008 114.4736"></polyline>
+                <polyline id="Fill-332" fill="#00CDFF" points="120.3572 89.0526 151.9322 89.0526 138.2852 114.4736 106.7102 114.4736"></polyline>
+                <polygon id="Fill-334" fill="#0074AE" points="64.699 147.6541 33.124 147.6541 46.771 122.2331 78.346 122.2331"></polygon>
+                <polyline id="Fill-336" fill="#00A1D2" points="74.0647 122.2332 105.6397 122.2332 91.9927 147.6542 60.4177 147.6542"></polyline>
+                <polyline id="Fill-338" fill="#00CDFF" points="103.7669 122.2332 135.3419 122.2332 121.6949 147.6542 90.1199 147.6542"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>
