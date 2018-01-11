@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-import { values } from 'lodash'
+import { connect } from 'react-redux';
+import { addCoin } from '../../redux/reducers';
 import { CryptoPriceRow } from '../CryptoPriceRow/CryptoPriceRow';
 import './Homepage.css';
 
-export class Homepage extends Component {
+class Homepage extends Component {
 
   renderTrackedCoins() {
-    const { trackedCoins, data, fiat } = this.props
-    return data && values( trackedCoins ).map( coin => {
+    const { coins, data, fiat } = this.props
+    return data && coins.map( coin => {
       const coinData = data[coin.name]
       return <CryptoPriceRow
         key={coin.name}
@@ -32,3 +33,9 @@ export class Homepage extends Component {
     );
   }
 }
+
+const mapStateToProps = ( state ) => {
+  return { coins: state.coins };
+};
+const mapDispatch = { addCoin };
+export default connect( mapStateToProps, null )( Homepage );

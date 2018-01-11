@@ -41,6 +41,7 @@
     "font-awesome": "^4.7.0",
     "lodash": "^4.17.4",
     "menubar": "^4.1.0",
+    "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
     "resolve-url-loader": "^2.1.0"
   },
@@ -59,7 +60,7 @@
     "react-dom": "^15.6.2",
     "react-inlinesvg": "^0.7.4",
     "react-select": "^1.1.0",
-    "redux": "^3.3.1",
+    "redux": "^3.7.2",
     "redux-saga": "^0.9.5",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.9",

@@ -7,40 +7,14 @@ import {
 import SVG from 'react-inlinesvg';
 import { keyBy } from 'lodash'
 
-import { Homepage } from '../homepage/HomePage'
+import Homepage from '../homepage/HomePage'
 import { About } from '../about/About'
-import { AddCoin } from '../add-coin/AddCoin'
+import AddCoin from '../add-coin/AddCoin'
 
 import './App.css'
 
 const seconds10 = 30000
 
-const trackedCoins = {
-  Bitcoin: {
-    name: 'Bitcoin',
-    symbol: 'BTC',
-  },
-  Ethereum: {
-    name: 'Ethereum',
-    symbol: 'ETH',
-  },
-  Litecoin: {
-    name: 'Litecoin',
-    symbol: 'LTC',
-  },
-  Ripple: {
-    name: 'Ripple',
-    symbol: 'XRP',
-  },
-  Cardano: {
-    name: 'Cardano',
-    symbol: 'ADA'
-  },
-  Stellar: {
-    name: 'Stellar',
-    symbol: 'XLM'
-  }
-}
 export default class App extends Component {
 
   constructor( props ) {
@@ -48,7 +22,6 @@ export default class App extends Component {
     this.state = {
       timer: null,
       data: null,
-      trackedCoins,
       fiat: 'EUR'
     }
     this.priceUrl = `https://api.coinmarketcap.com/v1/ticker/?convert=EUR`
@@ -119,7 +92,7 @@ export default class App extends Component {
 
           <hr />
 
-          <Route path="/prices" render={() => <Homepage trackedCoins={trackedCoins} data={data} fiat={fiat} />} />
+          <Route path="/prices" render={() => <Homepage data={data} fiat={fiat} />} />
           <Route path="/about" component={About} />
           <Route path="/coins" render={() => <AddCoin coins={data} />} />
           <Route path="/alerts" render={() => <div></div>} />
