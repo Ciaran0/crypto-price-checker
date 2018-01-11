@@ -43,6 +43,7 @@
     "menubar": "^4.1.0",
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
+    "redux-persist": "^5.4.0",
     "resolve-url-loader": "^2.1.0"
   },
   "devDependencies": {
