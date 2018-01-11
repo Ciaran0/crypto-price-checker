@@ -13,17 +13,18 @@ class AddCoin extends Component {
   }
 
   getOptions = () => {
-    console.log( this.props )
-    return Object.keys( this.props.coins || {} ).reduce( ( accumulator, key ) => {
-      const value = this.props.coins[key]
-      const coin = { name: value.name, symbol: value.symbol }
-      return [...accumulator, { label: `${key} (${value.symbol})`, coin }]
-    }, [] );
+    const trackedCoinNames = this.props.trackedCoins.map( coin => coin.name )
+    return Object.keys( this.props.coins || {} )
+      .filter( coin => !trackedCoinNames.includes( coin ) )
+      .reduce( ( accumulator, key ) => {
+        const value = this.props.coins[key]
+        const coin = { name: value.name, symbol: value.symbol }
+        return [...accumulator, { label: `${coin.name} (${coin.symbol})`, coin }]
+      }, [] );
   }
 
   handleChange = ( selectedOption ) => {
     this.setState( { selectedOption } );
-    console.log( `Selected: ${selectedOption.label}` );
   }
 
   handleAdd = () => {
@@ -34,7 +35,7 @@ class AddCoin extends Component {
     return (
       <div>
         <Select
-          name="form-field-name"
+          name="select-coin"
           value={this.state.selectedOption}
           onChange={this.handleChange}
           options={this.getOptions()}
