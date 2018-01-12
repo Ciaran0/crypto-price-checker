@@ -29,6 +29,7 @@ class AddCoin extends Component {
 
   handleAdd = () => {
     this.props.actions.addCoin( this.state.selectedOption.coin )
+    this.setState( { selectedOption: '' } )
   }
 
   render() {
