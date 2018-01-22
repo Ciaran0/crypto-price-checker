@@ -9,8 +9,8 @@ import 'react-select/dist/react-select.css'
 class AddCoin extends Component {
 
   state = {
-    selectedOption: '',
-    selectedRemoveOption: ''
+    selectedOption: undefined,
+    selectedRemoveOption: undefined
   }
 
   getAddOptions = () => {
@@ -48,6 +48,9 @@ class AddCoin extends Component {
   }
 
   render() {
+    const { selectedOption, selectedRemoveOption } = this.state
+    const addCoinDisabled = !selectedOption
+    const removeCoinDisabled = !selectedRemoveOption
     return (
       <div>
         <Select
@@ -58,7 +61,7 @@ class AddCoin extends Component {
           options={this.getAddOptions()}
           scrollMenuIntoView={false}
         />
-        <button onClick={this.handleAdd}>Add coin</button>
+        <button onClick={this.handleAdd} disabled={addCoinDisabled}>Add coin</button>
         <Select
           placeholder="Remove coin"
           name="select-coin"
@@ -67,7 +70,7 @@ class AddCoin extends Component {
           options={this.getRemoveOptions()}
           scrollMenuIntoView={false}
         />
-        <button onClick={this.handleRemove}>Remove coin</button>
+        <button onClick={this.handleRemove} disabled={removeCoinDisabled}>Remove coin</button>
       </div>
     );
   }
