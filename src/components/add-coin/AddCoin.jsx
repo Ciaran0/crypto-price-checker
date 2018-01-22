@@ -5,6 +5,7 @@ import { addCoin, removeCoin } from '../../redux/reducers';
 import Select from 'react-select'
 
 import 'react-select/dist/react-select.css'
+import './AddCoin.css'
 
 class AddCoin extends Component {
 
@@ -54,23 +55,23 @@ class AddCoin extends Component {
     return (
       <div>
         <Select
-          placeholder="Add coin"
+          placeholder="Select a coin"
           name="select-coin"
           value={this.state.selectedOption}
           onChange={this.handleAddChange}
           options={this.getAddOptions()}
           scrollMenuIntoView={false}
         />
-        <button onClick={this.handleAdd} disabled={addCoinDisabled}>Add coin</button>
+        <button className="btn" onClick={this.handleAdd} disabled={addCoinDisabled}>Add Coin</button>
         <Select
-          placeholder="Remove coin"
+          placeholder="Select a coin"
           name="select-coin"
           value={this.state.selectedRemoveOption}
           onChange={this.handleRemoveChange}
           options={this.getRemoveOptions()}
           scrollMenuIntoView={false}
         />
-        <button onClick={this.handleRemove} disabled={removeCoinDisabled}>Remove coin</button>
+        <button className="btn" onClick={this.handleRemove} disabled={removeCoinDisabled}>Remove Coin</button>
       </div>
     );
   }
