@@ -1,3 +1,4 @@
 node_modules
 dist
-CryptoPriceChecker-darwin-x64
+CryptoPriceChecker-*
+release
