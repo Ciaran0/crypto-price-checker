@@ -4,10 +4,51 @@
   "description": "A menubar app to check crypto prices",
   "main": "index.js",
   "scripts": {
+    "postinstall": "install-app-deps",
     "start": "ENV=development electron .",
     "dev": "concurrently -k \"babel-node server.js\" \"npm start\"",
-    "build": "webpack --config webpack.config.production.js && electron-packager . CryptoPriceChecker --platform=darwin --arch=all --prune --overwrite --icon ./bitcoin_icns.icns"
+    "build": "cross-env NODE_ENV=production node -r babel-register ./node_modules/webpack/bin/webpack --config webpack.config.production.js --progress --profile --colors",
+    "package": "webpack --config webpack.config.production.js && electron-packager . CryptoPriceChecker --all --overwrite --prune",
+    "dist": "npm run build && electron-builder --publish onTagOrDraft"
   },
+  "build": {
+    "appId": "me.ciaranoconnor.CryptoPriceChecker",
+    "files": [
+      "dist/",
+      "node_modules/",
+      "static/",
+      "main.js",
+      "index.html",
+      "package.json"
+    ],
+    "dmg": {
+      "contents": [
+        {
+          "x": 130,
+          "y": 220
+        },
+        {
+          "x": 410,
+          "y": 220,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ]
+    },
+    "directories": {
+      "output": "release"
+    }
+  },
+  "author": "Ciaran O'Connor",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ciaran0/crypto-price-checker.git"
@@ -18,7 +59,6 @@
     "Bitcoin",
     "Blockchain"
   ],
-  "author": "Ciaran O'Connor",
   "license": "CC0-1.0",
   "homepage": "https://github.com/Ciaran0/crypto-price-checker",
   "babel": {
@@ -37,8 +77,6 @@
     "babel-preset-stage-0": "^6.5.0",
     "classnames": "^2.2.5",
     "electron-debug": "^1.1.0",
-    "electron-prebuilt": "^0.36.0",
-    "font-awesome": "^4.7.0",
     "lodash": "^4.17.4",
     "menubar": "^4.1.0",
     "react-redux": "^5.0.6",
@@ -49,10 +87,13 @@
   "devDependencies": {
     "babel-loader": "^6.2.4",
     "concurrently": "^2.0.0",
+    "cross-env": "^5.1.3",
     "css-loader": "^0.23.1",
     "debounce": "^1.0.0",
     "devtron": "^1.4.0",
+    "electron-builder": "^19.54.0",
     "electron-packager": "^6.0.0",
+    "electron-prebuilt": "^0.36.0",
     "express": "^4.13.4",
     "file-loader": "^0.8.5",
     "moment": "^2.12.0",

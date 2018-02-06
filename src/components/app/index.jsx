@@ -10,6 +10,7 @@ import { keyBy } from 'lodash'
 import Homepage from '../homepage/HomePage'
 import { About } from '../about/About'
 import AddCoin from '../add-coin/AddCoin'
+import Settings from '../settings/Settings'
 
 import './App.css'
 
@@ -21,8 +22,7 @@ export default class App extends Component {
     super( props )
     this.state = {
       timer: null,
-      data: null,
-      fiat: 'EUR'
+      data: null
     }
     this.priceUrl = `https://api.coinmarketcap.com/v1/ticker/?convert=EUR`
   }
@@ -50,10 +50,10 @@ export default class App extends Component {
   }
 
   render() {
-    const { data, fiat } = this.state
+    const { data } = this.state
     return (
       <MemoryRouter
-        initialEntries={['/prices', '/coins', '/alerts', '/about']}
+        initialEntries={['/prices', '/coins', '/settings', '/about']}
         initialIndex={0}
       >
         <div>
@@ -74,9 +74,9 @@ export default class App extends Component {
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/alerts">
+                <NavLink to="/settings">
                   <SVG
-                    src={require( './alerts.svg' )}
+                    src={require( './settings.svg' )}
                   />
                 </NavLink>
               </li>
@@ -92,10 +92,10 @@ export default class App extends Component {
 
           <hr />
 
-          <Route path="/prices" render={() => <Homepage data={data} fiat={fiat} />} />
+          <Route path="/prices" render={() => <Homepage data={data} />} />
           <Route path="/about" component={About} />
           <Route path="/coins" render={() => <AddCoin coins={data} />} />
-          <Route path="/alerts" render={() => <div></div>} />
+          <Route path="/settings" render={() => <Settings />} />
         </div>
       </MemoryRouter>
     );

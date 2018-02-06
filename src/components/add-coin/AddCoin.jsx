@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux';
-import { addCoin, removeCoin } from '../../redux/reducers';
+import { addCoin, removeCoin } from '../../redux/addCoin';
 import Select from 'react-select'
 
 import 'react-select/dist/react-select.css'
@@ -78,7 +78,7 @@ class AddCoin extends Component {
 }
 
 const mapStateToProps = ( state ) => {
-  return { trackedCoins: state.coins };
+  return { trackedCoins: state.coins.trackedCoins };
 };
 function mapDispatchToProps( dispatch ) {
   return {
