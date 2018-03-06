@@ -1,5 +1,7 @@
 # Crypto Price Checker
 
+[![Build Status](https://travis-ci.org/Ciaran0/crypto-price-checker.svg?branch=master)](https://travis-ci.org/Ciaran0/crypto-price-checker)
+
 This is a menubar app for viewing crypto currency prices.
 
 ```bash
