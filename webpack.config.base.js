@@ -1,4 +1,4 @@
-const path = require('path');
+const path = require( 'path' );
 
 module.exports = {
   module: {
@@ -24,13 +24,13 @@ module.exports = {
   },
 
   output: {
-    path: path.join(__dirname, 'dist'),
+    path: path.join( __dirname, 'dist' ),
     filename: 'bundle.js',
   },
 
   resolve: {
-    modules: [path.resolve(__dirname, 'src'), 'node_modules'],
-    extensions: ['.js', '.json'],
+    modules: [path.resolve( __dirname, 'src' ), 'node_modules'],
+    extensions: ['.js', '.json', '.jsx'],
   },
 
   plugins: [],

@@ -8,9 +8,9 @@ import {
 import SVG from 'react-inlinesvg';
 import { keyBy } from 'lodash'
 
-import Homepage from '../homepage/HomePage'
-import { About } from '../about/About.jsx'
-import AddCoin from '../add-coin/AddCoin.jsx'
+import Homepage from '../homepage/Homepage'
+import { About } from '../about/About'
+import AddCoin from '../add-coin/AddCoin'
 import Settings from '../settings/Settings'
 
 import './App.css'
