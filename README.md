@@ -16,4 +16,3 @@ To open chrome debugger
 CMD ALT I
 
 #### License [CC0 (Public Domain)](LICENSE.md)
-

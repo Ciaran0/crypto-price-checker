@@ -1,66 +1,51 @@
-import menubar from 'menubar';
-import electron, { ipcMain } from 'electron';
+/* eslint-disable global-require, function-paren-newline, no-console */
+const path = require( 'path' );
+const { app, ipcMain } = require( 'electron' );
+const menubar = require( 'menubar' );
 
-// Module to control application life.
-const app = electron.app;
-// Module to create native browser window.
-const BrowserWindow = electron.BrowserWindow;
+require( 'fix-path' )(); // resolve user $PATH env variable
 
-// Keep a global reference of the window object, if you don't, the window will
-// be closed automatically when the JavaScript object is garbage collected.
-let mainWindow;
-
-function createWindow() {
-  // Create the browser window.
-  mainWindow = new BrowserWindow( { width: 400, height: 300 } );
-
-  // and load the index.html of the app.
-  mainWindow.loadURL( 'file://' + __dirname + '/index.html' );
-
-  // Open the DevTools.
-  mainWindow.webContents.openDevTools();
-
-  // Emitted when the window is closed.
-  mainWindow.on( 'closed', function () {
-    // Dereference the window object, usually you would store windows
-    // in an array if your app supports multi windows, this is the time
-    // when you should delete the corresponding element.
-    mainWindow = null;
-  } );
+if ( process.env.NODE_ENV === 'development' ) {
+  require( 'electron-debug' )( { showDevTools: true } );
 }
 
-// This method will be called when Electron has finished
-// initialization and is ready to create browser windows.
-// app.on('ready', createWindow);
+const installExtensions = async () => {
+  if ( process.env.NODE_ENV === 'development' ) {
+    const installer = require( 'electron-devtools-installer' );
+
+    const extensions = ['REACT_DEVELOPER_TOOLS', 'REDUX_DEVTOOLS'];
+    const forceDownload = !!process.env.UPGRADE_EXTENSIONS;
+
+    return Promise.all(
+      extensions.map( name => installer.default( installer[name], forceDownload ) ),
+    ).catch( console.log );
+  }
+};
+
+// menubar
+const mb = menubar( {
+  alwaysOnTop: process.env.NODE_ENV === 'development',
+  icon: path.join( app.getAppPath(), 'resources/IconTemplate.png' ),
+  width: 320,
+  height: 200,
+  preloadWindow: true,
+  resizable: false,
+  transparent: false,
+} );
+
+mb.on( 'ready', async () => {
+  await installExtensions();
+
+  console.log( 'app is ready' );
+} );
 
 // Quit when all windows are closed.
-app.on( 'window-all-closed', function () {
+app.on( 'window-all-closed', () => {
   // On OS X it is common for applications and their menu bar
   // to stay active until the user quits explicitly with Cmd + Q
   if ( process.platform !== 'darwin' ) {
     app.quit();
   }
-} );
-
-app.on( 'activate', function () {
-  // On OS X it's common to re-create a window in the app when the
-  // dock icon is clicked and there are no other windows open.
-  if ( mainWindow === null ) {
-    createWindow();
-  }
-} );
-
-// menubar
-const mb = menubar( {
-  'alwaysOnTop': process.env.NODE_ENV === 'development',
-  'width': 300,
-  'height': 200,
-  'preload-window': true,
-  'resizable': false
-} );
-mb.on( 'ready', function ready() {
-  console.log( 'app is ready' )
-  // your app code here
 } );
 
 // ipc communication

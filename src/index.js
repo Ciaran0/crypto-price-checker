@@ -1,47 +1,31 @@
-import 'babel-polyfill'; // generators
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
+import { createStore } from 'redux'
+import { Provider } from 'react-redux'
 import { persistStore, persistReducer } from 'redux-persist'
 import { PersistGate } from 'redux-persist/lib/integration/react'
 import storage from 'redux-persist/lib/storage'
-import { render as renderReact } from 'react-dom';
-import { Provider } from 'react-redux'
-import { createStore } from 'redux'
+
 import reducers from './redux/reducers';
+import App from './components/app';
 
-let App = require( './components/app' ).default;
-
-const config = {
+const persistConfig = {
   key: 'root',
   storage,
 }
 
-const reducer = persistReducer( config, reducers )
+console.log( 'hello', App )
 
-function configureStore() {
-  let store = createStore( reducer )
-  let persistor = persistStore( store )
-  return { persistor, store }
-}
+const reducer = persistReducer( persistConfig, reducers )
 
+const store = createStore( reducer )
+const persistor = persistStore( store )
 
-const { store, persistor } = configureStore()
-
-const render = ( Component ) => {
-  const comp =
-    <Provider store={store}>
-      <PersistGate persistor={persistor}>
-        <Component />
-      </PersistGate>
-    </Provider>
-  renderReact( comp, document.getElementById( 'root' ) );
-};
-
-render( App )
-
-if ( module.hot ) {
-  module.hot.accept( './components/app', function () {
-    let newApp = require( './components/app' ).default;
-    render( newApp );
-  } );
-}
+render(
+  <Provider store={store}>
+    <PersistGate persistor={persistor}>
+      <App />
+    </PersistGate>
+  </Provider>,
+  document.getElementById( 'root' )
+)

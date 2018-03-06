@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { hot } from 'react-hot-loader';
 import {
   MemoryRouter,
   Route,
@@ -8,15 +9,15 @@ import SVG from 'react-inlinesvg';
 import { keyBy } from 'lodash'
 
 import Homepage from '../homepage/HomePage'
-import { About } from '../about/About'
-import AddCoin from '../add-coin/AddCoin'
+import { About } from '../about/About.jsx'
+import AddCoin from '../add-coin/AddCoin.jsx'
 import Settings from '../settings/Settings'
 
 import './App.css'
 
 const seconds10 = 30000
 
-export default class App extends Component {
+class App extends Component {
 
   constructor( props ) {
     super( props )
@@ -101,3 +102,5 @@ export default class App extends Component {
     );
   }
 }
+
+export default hot( module )( App )
