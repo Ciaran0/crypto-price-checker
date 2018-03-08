@@ -41,6 +41,7 @@ class Settings extends Component {
           onChange={this.handleSelectFiatChange}
           options={this.getOptions()}
           scrollMenuIntoView={false}
+          clearable={false}
         />
         <button className="btn" onClick={this.handleFiatChange} disabled={fiatButtonDisabled}>Change Fiat</button>
       </div>
