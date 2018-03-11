@@ -1,0 +1,69 @@
+a svg {
+  width: 30px;
+  height: 30px;
+}
+
+a svg:hover {
+  fill: orange;
+}
+
+.active svg {
+  fill: orange;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-height: 50px;
+}
+
+nav ul {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  padding: 0;
+
+}
+
+nav li {
+  display: inline-block;
+  width: 25%;
+  list-style-type: none;
+}
+
+nav a {
+  display: inline-block;
+  padding-top: .75rem;
+  padding-bottom: .3rem;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+  text-decoration: none;
+  color: #333;
+}
+
+.tab-two__active ~ hr {
+  margin-left: 25%;
+}
+
+.tab-three__active ~ hr {
+  margin-left: 50%;
+}
+
+.tab-four__active ~ hr {
+  margin-left: 75%;
+}
+
+hr {
+  height: .25rem;
+  width: 25%;
+  margin: 0;
+  background: orange;
+  border: none;
+  transition: .3s ease-in-out;
+}
+
+.four ~ hr {
+  margin-left: 75%;
+}
